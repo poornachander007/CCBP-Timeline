@@ -1,0 +1,65 @@
+/* Write your CSS here */
+.course_card_container {
+  padding: 20px;
+  color: rgb(5, 5, 34);
+  /* box-shadow: 10px 5px 5px rgb(189, 187, 187); */
+}
+
+.heading_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.courseTitle {
+  font-size: 20px;
+}
+
+.duration {
+  font-size: 15px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+}
+
+.clock_icon {
+  height: 15px;
+  width: 15px;
+}
+@media (max-width: 767px) {
+  .courseTitle {
+    font-size: 15px;
+  }
+  .duration {
+    font-size: 10px;
+  }
+  .clock_icon {
+    height: 10px;
+    width: 10px;
+  }
+  p {
+    font-size: 8px !important;
+  }
+}
+
+.description {
+  font-size: 15px;
+}
+
+.ul_tagsList_container {
+  padding-left: 0;
+  margin-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.li_item {
+  color: rgb(5, 5, 41);
+  padding: 5px;
+  border-radius: 3px;
+  margin: 5px;
+  list-style: none;
+  margin-left: 0;
+  background-color: rgba(157, 157, 173, 0.295);
+  font-weight: 900;
+}

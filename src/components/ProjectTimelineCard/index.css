@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.project_card_container {
+  padding: 20px;
+  color: rgb(5, 5, 34);
+}
+
+.project_image {
+  width: 100%;
+}
+
+.heading_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.projectTitle {
+  font-size: 20px;
+}
+
+.duration {
+  font-size: 15px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 767px) {
+  .projectTitle {
+    font-size: 15px;
+  }
+  .duration {
+    font-size: 10px;
+  }
+}
+
+.Calendar_icon {
+}
+
+.description {
+}
+
+.projectUrl {
+  color: rgb(5, 122, 122);
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+}
